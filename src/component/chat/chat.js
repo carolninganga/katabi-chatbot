@@ -31,7 +31,7 @@ class SimpleForm extends Component {
             options: [
                 { value: 'how to use this app?', label: 'How to use this app?', trigger: '4' },
                 { value: 'how do I navigate once I enter the VR room', label: 'How do I navigate once I enter the VR room', trigger: '5' },
-                { value: 'how do I send an email to the katabi team?', label: 'How do I send an email to the katabi team?', trigger: '6' },
+                { value: 'how do I contact the katabi team?', label: 'How do I contact the katabi team?', trigger: '6' },
               ]
           },
           {
@@ -46,7 +46,7 @@ class SimpleForm extends Component {
           },
           {
             id: '6',
-            message: 'Go to saved and click delete',
+            message: 'Go to the about page and fill out the form to send email',
             trigger: '7',
           },
         
@@ -64,18 +64,18 @@ class SimpleForm extends Component {
           },
           {
             id: '8',
-            message: 'Thank you for using Skill Share Squad, have a nice day!!',
+            message: 'Thank you for using Katabi, have a nice day!!',
             end: true,
           },
           {
             id: '9',
-            message: 'Thats too bad but I cannot help you anymore ',
+            message: 'For further assistance please send us an email',
             end: true,
           }
         ]}
       />
 
-      <button className="btn"><a href="https://foodie03.herokuapp.com/">
+      <button className="btn"><a href="https://katabi.netlify.app/">
             Home
         </a></button>
       </div>

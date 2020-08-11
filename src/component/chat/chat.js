@@ -30,18 +30,18 @@ class SimpleForm extends Component {
             id : 'question',
             options: [
                 { value: 'how to use this app?', label: 'How to use this app?', trigger: '4' },
-                { value: 'how do I preview a virtual reality room?', label: 'How do I preview a virtual reality room?', trigger: '5' },
+                { value: 'how do I navigate once I enter the VR room', label: 'How do I navigate once I enter the VR room', trigger: '5' },
                 { value: 'how do I send an email to the katabi team?', label: 'How do I send an email to the katabi team?', trigger: '6' },
               ]
           },
           {
             id: '4',
-            message: 'enter your fav food and location in the specified fields',
+            message: 'select from the options on the homepage which room to enter a VR room',
             trigger: '7'
           },
           {
             id: '5',
-            message: 'Click saved on the navbar',
+            message: 'Use the arrow keys and the mouse to move the Avatar',
             trigger: '7',
           },
           {

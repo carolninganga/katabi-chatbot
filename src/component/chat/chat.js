@@ -6,7 +6,7 @@ class SimpleForm extends Component {
   render() {
     return (
       <>
-      <h3>Welcome to Katabi Support Team</h3>
+      <h2>Welcome to Katabi Support Team</h2>
       <div className="chat"> 
       <ChatBot className="chatbot" style={{color: "blue"}}
         steps={[

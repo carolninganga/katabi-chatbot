@@ -1,12 +1,3 @@
-body {
-    background-image: url("https://cdn.glitch.com/c0dcb651-5b19-4756-a6e6-25b3982ca367%2FCapturebg1.PNG?v=1597007564527");
-    background-size:     cover;                      /* <------ */
-    background-repeat:   no-repeat;
-    background-position: center center;
-    min-height: 100vh;
-	flex: 0 1 60 vw;
-	margin: 0;
-}
 
 /* .eDOvDv {
     background-color: #2196F3  !important;
@@ -24,9 +15,10 @@ body {
     padding: 10px;
   }
 
-  h2 {
+  h5 {
       color: #ffffff ;
       text-align: center;
+      margin-top: 15px;
       
   }
 
@@ -35,23 +27,16 @@ body {
 }
 
 
-button {
 
-    margin-top: 15px;
-    border-radius: 8px !important;
-}
+ .chatbotBtn {	
+    width:80px;
+    height:34px;	
+    border-radius: 6px 6px;	
+    background: transparent;    
+    border: 1px #ccc solid;	
+    color: #fff;}
 
-
-button {
-    transition-duration: 0.4s !important;
-  }
-  
-button:hover {
-    background-color: #2196F3 !important; /* Green */
-    color: white !important;
-  }
-
-
- a:hover {
-    color: white !important;
- }
+.chatbotBtn:hover {	
+    text-decoration: none;	
+    color: #212529;	
+    background-color:#f4f4f4;}

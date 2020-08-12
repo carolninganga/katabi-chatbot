@@ -6,7 +6,12 @@ class SimpleForm extends Component {
   render() {
     return (
       <>
-      <h2>Welcome to Katabi Support Team</h2>
+      <h5>Welcome to Katabi Support Team 
+      <a className="btn ml-2 chatbotBtn" href="https://katabi.netlify.app/">
+            BACK
+        </a>
+      </h5>
+
       <div className="chat"> 
       <ChatBot className="chatbot" style={{color: "blue"}}
         steps={[
@@ -75,9 +80,9 @@ class SimpleForm extends Component {
         ]}
       />
 
-      <button className="btn"><a href="https://katabi.netlify.app/">
+      {/* <button className="btn"><a href="https://katabi.netlify.app/">
             Home
-        </a></button>
+        </a></button> */}
       </div>
       </>
     );

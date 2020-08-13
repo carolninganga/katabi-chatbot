@@ -34,7 +34,7 @@ class SimpleForm extends Component {
           {
             id : 'question',
             options: [
-                { value: 'how to use this app?', label: 'How to use this app?', trigger: '4' },
+                { value: 'How do I use this app?', label: 'How do I use this app?', trigger: '4' },
                 { value: 'how do I navigate once I enter the VR room', label: 'How do I navigate once I enter the VR room', trigger: '5' },
                 { value: 'how do I contact the katabi team?', label: 'How do I contact the katabi team?', trigger: '6' },
               ]
@@ -74,7 +74,7 @@ class SimpleForm extends Component {
           },
           {
             id: '9',
-            message: 'For further assistance please send us an email',
+            message: 'For further assistance, please contact us at team@katabi.co',
             end: true,
           }
         ]}
